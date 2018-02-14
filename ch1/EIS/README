@@ -1,0 +1,28 @@
+Employee Information System (EIS)
+
+1. Features
+	- Add an employee
+	- Delete an employee
+	- Promote an employee
+	- Print a list of all employees from past to current
+	- Print a list of current employees
+
+2. Files
+	- Employee
+		- Employee.h : Declare the Employee class
+		- Employee.cpp : Implement the Employee class
+		- EmployeeTest.cpp : Test code for Employee class
+	- Database
+		* Require "Employee.h"
+		- Database.h : Declare the Database class
+		- Database.cpp : Implement the Database class
+		- DatabaseTest.cpp : Test code for Database class
+	- UserInterface(include main function)
+		- UserInterface.cpp : Interactive service for the user
+
+3. Makefile
+	- all : create an executable file. -> ./EIS
+	- EmployeeTest : create an executable file for Employee class -> ./empTest
+	- DatabaseTest : create an executable file for Database class -> ./dbTest
+	- clean : remove all executable files and object files
+
