@@ -1,2 +1,2 @@
 # cpp-ex
-Learning for C++
+Repo. for learning C++
