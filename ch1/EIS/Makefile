@@ -1,4 +1,5 @@
-XOUT = $(notdir $(shell pwd)).out
+#XOUT = $(notdir $(shell pwd)).out
+XOUT = EIS.out
 CPPFILES = Employee.cpp Database.cpp UserInterface.cpp
 HFILES = Employee.h Database.h
 OFILES = $(CPPFILES:.cpp=.o)
